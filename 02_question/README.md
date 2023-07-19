@@ -17,7 +17,7 @@
 
 ### Explanation
 * The script follows the instructions given in question, such as assigning the initial position and parameters, defining the equations.
-* The time interval in assumed and the x, y, z - coordinates are updated with dx, dy, dz for each timestep.
+* The time interval is assumed and the x, y, z - coordinates are updated with dx, dy, dz for each timestep.
 
 ### Environment setup
 * Requires `Python 3.9+`

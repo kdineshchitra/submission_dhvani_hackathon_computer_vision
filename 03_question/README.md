@@ -87,4 +87,4 @@ yaml.dump(dataset_yaml, dataset_yaml_path)
 ### Run inference
 * Change current directory to `YOLOv6`
 * The use the following command for inference on images in sample_images_dir folder and saving the results in output_dir
-	`python3 tools/infer.py --weights ../assets/best_ckpt.pt --source sample_images_dir --yaml ../assets/dataset.yaml --save-dir output_dir`
+* `python3 tools/infer.py --weights ../assets/best_ckpt.pt --source sample_images_dir --yaml ../assets/dataset.yaml --save-dir output_dir`

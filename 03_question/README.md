@@ -5,10 +5,10 @@
 
 ## Dataset
 * The custom vehicle dataset for the problem statement: https://www.kaggle.com/datasets/pratikbarua/vehicle-detection-dataset
-* The dataset contains 3003 images with corresponding annotation 3003 xml files and 500 unannotated images.
+* The dataset contains 3003 images with corresponding annotation 3003 xml files and 500 unannotated images for testing.
 * The dataset has been annotated for 21 vehicle categories, such as car, ricksaw, bus, truck, motorbike, bicycle, garbagevan, etc,.
 * The class distribution as number of objects per class in the whole dataset is given below.
-# attach class_distribution.png here
+![class_distribution](assets/class_distribution.png)
   
 ## Solution
 ### Model selection
@@ -33,7 +33,7 @@
 * The neccessary steps sholud be done like resizing and normalizing the pixel values ([0,1] or [-1,1]) for training and data augumentation for improving the model's generalization.
 * Manual inspection of random sample of annotated images to ensure the accuracy of the bounding box annotations.
 * The dataset (after selecting only 4 classes) consists of 2701 images and it is splited into training and validation sets with 80:20 ratio. The unlabeled test set given in the original dataset is uesd for evaluation tasks.
-* A [data_preparation.py](link) script is written to convert xml annotations to YOLO txt format and create proper folder for training.
+* A [data_preparation.py](data_preparation.py) script is written to convert xml annotations to YOLO txt format and create proper folder for training.
 
 ### Training
 * The opensource pre-trained YOLOv6s model from [this repo](https://github.com/meituan/YOLOv6) is used for training the baseline submission model.
@@ -51,7 +51,7 @@
 | three wheelers (CNG) | 227           | 602    | 0.829   | 0.56    | 0.668    | 0.679  | 0.438     |
 
 ## Assets
-* The finetuned model, the training and inference model config, the data config YAML file, plots generated in data prep and training, sample results are given in the [assets](link) folder.
+* The finetuned model, the training and inference model config, the data config YAML file, plots generated in data prep and training, sample results are given in the [assets](assets) folder.
 
 ### Environment setup
 * Requires `Python 3.9+`

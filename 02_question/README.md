@@ -13,7 +13,8 @@
 
 ## Solution
 * The [Q2-path_in_3D_space.py](https://github.com/kdineshchitra/submission_dhvani_hackathon_computer_vision/blob/master/02_question/Q2-path_in_3D_space.py) holds the plotting script for the given equations.
-* The resulting 3D plot will be displayed (in a pop-up window) when executing the [Q2-path_in_3D_space.py](https://github.com/kdineshchitra/submission_dhvani_hackathon_computer_vision/blob/master/02_question/Q2-path_in_3D_space.py) script.
+* The resulting 3D plot will be saved as a `.html` file when executing the [Q2-path_in_3D_space.py](https://github.com/kdineshchitra/submission_dhvani_hackathon_computer_vision/blob/master/02_question/Q2-path_in_3D_space.py) script.
+* Open the saved HTML file in a browser to visualize the plot.
 
 ### Explanation
 * The script follows the instructions given in question, such as assigning the initial position and parameters, defining the equations.
@@ -25,5 +26,5 @@
 * `python -m pip install -r requirements.txt`
 
 ### Run script
-* To plot the 3D graph:
+* To save the 3D plot as `3D_path.html` file:
 * `python Q2-path_in_3D_space.py`

@@ -62,4 +62,5 @@ for i in range(1, len(t)):
 
 # 3D - interactive plot
 fig = px.line_3d(x=x, y=y, z=z)
-fig.show()
+# fig.show()
+fig.write_html("3D_path.html")

@@ -42,7 +42,7 @@
 * The training scope and model performance can be increased with more experimental iterations of hyperparameter tuning and training.
 
 ### Evaluation results in val datset
-| Class                | Labeled_images | Labels | P@.5iou | R@.5iou | F1@.5iou | mAP@.5 | mAP@.5:.95 |
+| Class                | Labeled_images | Labels | P @ .5iou | R @ .5iou | F1 @ .5iou | mAP @ .5 | mAP @ .5:.95 |
 |----------------------|---------------|--------|---------|---------|----------|--------|-----------|
 | all                  | 541           | 3043   | 0.729   | 0.56    | 0.633    | 0.651  | 0.43      |
 | bus                  | 309           | 643    | 0.737   | 0.58    | 0.649    | 0.656  | 0.458     |

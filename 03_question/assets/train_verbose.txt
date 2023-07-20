@@ -1,0 +1,14 @@
+Epoch        lr  iou_loss  dfl_loss  cls_loss
+0/4     0.0004    0.4787         0     1.902: 100% 540/540 [07:39<00:00,  1.18it/s]
+
+Epoch        lr  iou_loss  dfl_loss  cls_loss
+1/4     0.0004      0.48         0     1.134: 100% 540/540 [07:28<00:00,  1.20it/s]
+
+Epoch        lr  iou_loss  dfl_loss  cls_loss
+2/4  0.0003664    0.4813         0     1.004: 100% 540/540 [07:45<00:00,  1.16it/s]
+
+Epoch        lr  iou_loss  dfl_loss  cls_loss
+3/4  0.0002784    0.4664         0    0.9415: 100% 540/540 [07:44<00:00,  1.16it/s]
+
+Epoch        lr  iou_loss  dfl_loss  cls_loss
+4/4  0.0001696    0.4589         0    0.9139: 100% 540/540 [07:22<00:00,  1.22it/s]

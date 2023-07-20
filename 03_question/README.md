@@ -51,7 +51,8 @@
 | three wheelers (CNG) | 227           | 602    | 0.829   | 0.56    | 0.668    | 0.679  | 0.438     |
 
 ## Assets
-* The finetuned model, the training and inference model config, the data config YAML file, plots generated in data prep and training, sample results are given in the [assets](assets) folder.
+* Download the finetuned baseline model `yolov6s_ep5_bs4.pt` from [here](https://drive.google.com/uc?id=1hQBLoA2a1H5nnmy21k57cY3Txvl4jWMy&export=download) and place it inside the [assets](assets) folder.
+* The training and inference model config, the data config YAML file, plots generated in data prep and training, and the sample results are given in the [assets](assets) folder.
 
 ### Environment setup
 * Requires `Python 3.9+`
